@@ -300,6 +300,10 @@ footer {
 
 /* Responsive styles*/
 @media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
   
     nav{
         flex-direction: column;
@@ -309,6 +313,7 @@ footer {
         width: 100%;
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
     }
 
     .features{
