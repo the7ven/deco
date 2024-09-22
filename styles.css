@@ -341,6 +341,10 @@ footer {
      .contact-form{
         width: 100%;
      }
+
+     .service img{
+        width: 150px;
+     }
   
 }
 
