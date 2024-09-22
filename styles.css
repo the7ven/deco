@@ -309,6 +309,10 @@ footer {
         flex-direction: column;
     }
 
+    .nav-links a{
+        font-size: 13px;
+    }
+
     .hero{
         width: 100%;
         justify-content: center;
@@ -344,6 +348,14 @@ footer {
 
      .service img{
         width: 150px;
+     }
+
+     .hero-content h1{
+        font-size: 1.5rem;
+     }
+
+    nav .cta-button{
+        font-size: 10px;
      }
   
 }
