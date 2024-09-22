@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECO</title>
+ <link rel="stylesheet" href="styles.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MonEntreprise</div>
+                <div class="nav-links">
+                    <a href="#" class="nav-link">Accueil</a>
+                    <a href="#" class="nav-link">Produits</a>
+                    <a href="#" class="nav-link">À propos</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ <!-- En-tête -->
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Transformez votre intérieur en un espace de rêve</h1>
+                    <p>Personnalisez chaque coin de votre maison avec nos idées uniques et élégantes.</p>
+                    <a href="#" class="cta-button">En savoir plus</a>
+                </div>
+            </div>
+            <div class="scroll-indicator"></div>
+        </section>
+    </main>
+
+
+      <!-- Pourquoi nous choisir -->
+      <section class="features">
+        <h2 data-aos="fade-right">Pourquoi nous choisir ?</h2>
+        <div class="feature" data-aos="fade-up">
+            <h3>Designs sur-mesure</h3>
+            <p>Nous concevons des espaces intérieurs adaptés à vos goûts et besoins.</p>
+        </div>
+        <div class="feature" data-aos="fade-up" data-aos-delay="200">
+            <h3>Matériaux de qualité</h3>
+            <p>Utilisation de produits de haute qualité et respectueux de l’environnement.</p>
+        </div>
+        <div class="feature" data-aos="fade-up" data-aos-delay="400">
+            <h3>Service personnalisé</h3>
+            <p>Accompagnement tout au long de votre projet, de la consultation à la réalisation.</p>
+        </div>
+    </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2 data-aos="fade-left">Nos services</h2>
+    <div class="service" data-aos="fade-up">
+        <h3>Aménagement intérieur</h3>
+        <p>Optimisez vos espaces de vie.</p>
+    </div>
+    <div class="service" data-aos="fade-up" data-aos-delay="200">
+        <h3>Conseils déco</h3>
+        <p>Profitez des conseils de nos experts pour harmoniser votre décoration.</p>
+    </div>
+    <div class="service" data-aos="fade-up" data-aos-delay="400">
+        <h3>Conception 3D</h3>
+        <p>Visualisez votre futur espace avec nos rendus 3D.</p>
+    </div>
+</section>
+
+<!-- Témoignages -->
+<section class="testimonials">
+    <h2 data-aos="fade-right">Témoignages</h2>
+    <div class="testimonial" data-aos="fade-up">
+        <p>"Notre salon est devenu un espace chaleureux, grâce à leurs conseils!"</p>
+        <p>- Sophie L.</p>
+    </div>
+    <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+        <p>"Leur équipe a su comprendre nos besoins, le résultat est parfait."</p>
+        <p>- Marc & Élodie</p>
+    </div>
+</section>
+
+<!-- Galerie -->
+<section class="gallery">
+    <h2 data-aos="fade-left">Galerie de réalisations</h2>
+    <div class="gallery-grid" data-aos="fade-up">
+        <img src="image1.jpg" alt="Projet 1">
+        <img src="image2.jpg" alt="Projet 2">
+        <img src="image3.jpg" alt="Projet 3">
+    </div>
+</section>
+
+<!-- Formulaire de contact -->
+<section id="contact" class="contact-form">
+    <h2 data-aos="fade-right">Contactez-nous</h2>
+    <form id="form" action="#" data-aos="fade-up">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>© 2024 - Votre entreprise de décoration d'intérieur | Contact : info@votreentreprise.com</p>
+</footer>
+
+
+   <script src="main.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+</script>
+</body>
+</html>
