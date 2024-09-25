@@ -57,7 +57,7 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #333;
-    font-weight: 400;
+    font-weight: bold;
     transition:  0.3s all ease-in-out;
 }
 
@@ -146,9 +146,10 @@ p { color: #8a8787;
     display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 2px solid #333;
-    border-right: 2px solid #333;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
     transform: rotate(45deg);
+    
 }
 
 @keyframes bounce {
@@ -221,13 +222,15 @@ p { color: #8a8787;
     padding: 40px 20px;
     background-color: white;
     text-align: center;
+  
    
 }
 
 .services-features{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
 }
 
 .service img{
